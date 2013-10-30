@@ -58,13 +58,13 @@ Adding version 1.0 or later of the SubPageList extension requires adding a singl
 		}
 	}
 
-The following example also adds Semantic MediaWiki version 1.8.0.5:
+The following example also adds the latest matching version of Semantic MediaWiki:
 
 	{
 		"require": {
 			"php": ">=5.3.2",
 			"mediawiki/sub-page-list": ">=1.0",
-			"mediawiki/semantic-mediawiki": "1.8.0.5"
+			"mediawiki/semantic-mediawiki": "*"
 		}
 	}
 
