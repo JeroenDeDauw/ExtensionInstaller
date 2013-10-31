@@ -16,7 +16,7 @@ bother wth this manually.
 Place the "ExtensionInstaller" directory in the "extensions" directory of your
 MediaWiki installation and add the following line to the end of your LocalSettings file:
 
-    require_once( "$IP/extensions/SubPageList/SubPageList.php" );
+    require_once( "$IP/extensions/ExtensionInstaller/ExtensionInstaller.php" );
 
 ### Install Composer
 
