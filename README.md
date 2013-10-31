@@ -9,6 +9,8 @@ have to be specified. If there are any conflicts between versions of the various
 software, you will be notified of these conflicts, and thus also do not need to
 bother wth this manually.
 
+Blog post: [MediaWiki extension installer](http://www.bn2vs.com/blog/2013/10/31/mediawiki-extension-installer/)
+
 ## Steps to take
 
 ### Install this extension
