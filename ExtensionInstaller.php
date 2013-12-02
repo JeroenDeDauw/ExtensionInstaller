@@ -11,5 +11,6 @@ $GLOBALS['wgExtensionCredits']['other']['ExtensionInstaller'] = array(
 	'author' => array(
 		'[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]',
 	),
-	'url' => 'https://github.com/JeroenDeDauw/ExtensionInstaller'
+	'url' => 'https://github.com/JeroenDeDauw/ExtensionInstaller',
+	'description' => 'Allows installing extensions and PHP libraries via Composer'
 );
