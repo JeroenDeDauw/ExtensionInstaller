@@ -17,10 +17,19 @@ Blog post: [MediaWiki extension installer](http://www.bn2vs.com/blog/2013/10/31/
 
 ## Steps to take
 
-### Install this extension
+### Download and install this extension
 
-Place the "ExtensionInstaller" directory in the "extensions" directory of your
-MediaWiki installation and add the following line to the end of your LocalSettings file:
+You can get the extension via Git:
+
+    git clone https://github.com/JeroenDeDauw/ExtensionInstaller.git
+
+Or [download it as zip archive](https://github.com/JeroenDeDauw/ExtensionInstaller/archive/master.zip).
+
+In either case, the "ExtensionInstaller" should end up in the "extensions" directory of your
+MediaWiki installation. If you got the zip archive, you will need to rename the directory from
+ExtensionInstaller-master to ExtensionInstaller.
+
+Add the following line to the end of your LocalSettings file:
 
     require_once( "$IP/extensions/ExtensionInstaller/ExtensionInstaller.php" );
 
