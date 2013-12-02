@@ -31,7 +31,7 @@ ExtensionInstaller-master to ExtensionInstaller.
 
 Add the following line to the end of your LocalSettings file:
 
-    require_once( "$IP/extensions/ExtensionInstaller/ExtensionInstaller.php" );
+    require_once "$IP/extensions/ExtensionInstaller/ExtensionInstaller.php";
 
 ### Install Composer
 
