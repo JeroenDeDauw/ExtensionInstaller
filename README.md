@@ -79,7 +79,7 @@ The following example also adds the latest matching version of Semantic MediaWik
 		"require": {
 			"php": ">=5.3.2",
 			"mediawiki/sub-page-list": ">=1.0",
-			"mediawiki/semantic-mediawiki": "*"
+			"mediawiki/semantic-media-wiki": "*"
 		}
 	}
 
@@ -105,4 +105,4 @@ Note that some extensions might require further setup and configuration before t
 
 Once extensions have been installed, you might want to add additional ones, change the version
 of existing ones, or perhaps remove a few. Just update the list in the json file and run
-"composer update".
+"composer update" or "php composer.phar update" respectively.
