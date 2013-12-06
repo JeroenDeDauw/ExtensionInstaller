@@ -2,16 +2,12 @@
 /**
  * Initialization file for the Extension Installer extension.
  * 
- * @link https://www.mediawiki.org/wiki/Extension:Extension_Installer Documentation
- * @link https://www.mediawiki.org/wiki/Extension_talk:Extension_Installer Support
+ * @link https://github.com/JeroenDeDauw/ExtensionInstaller/blob/master/README.md Documentation
+ * @link https://github.com/JeroenDeDauw/ExtensionInstaller/issues Support
  * @link https://github.com/JeroenDeDauw/ExtensionInstaller Source Code
  *
- * @since 0.1
- *
- * @file
  * @ingroup ExtensionInstaller
  * @ingroup Extensions
- * @package MediaWiki
  *
  * @licence http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
@@ -22,7 +18,6 @@
  *
  * @defgroup ExtensionInstaller Extension Installer
  */
-
 
 if ( !defined( 'MEDIAWIKI' ) ) {
    die( 'This file is a MediaWiki extension and thus not a valid entry point.' );

@@ -2,11 +2,6 @@
 /**
  * Internationalization file for the Extension Installer extension.
  *
- * @since 0.2.2
- *
- * @file
- * @ingroup ExtensionInstaller
- *
  * @licence GNU General Public License 2.0 or later
  * @author Karsten Hoffmeyer (Kghbln)
  */
