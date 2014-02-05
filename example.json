@@ -2,7 +2,6 @@
 	"require": {
 		"php": ">=5.3.2"
 	},
-	"minimum-stability" : "dev",
 	"config": {
 		"vendor-dir": "../../vendor"
 	},
