@@ -58,8 +58,7 @@ In this file, add the extensions you want to install in the "require" section. S
 "[package setup](http://getcomposer.org/doc/01-basic-usage.md#composer-json-project-setup)".
 Or have a look at the examples below.
 
-The default contents of the json file specifies nothing should be installed, and looks as 
-follows:
+The default contents of the json file specifies nothing should be installed, and includes the following section:
 
 	{
 		"require": {
