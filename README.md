@@ -2,7 +2,7 @@ Note: As of MediaWiki 1.22, you can use this extension to install extensions
 directly into MediaWiki itself. This will not work for older MediaWiki versions. 
 See the [Composer page on MediaWiki.org](https://www.mediawiki.org/wiki/Composer) for more information.
 
-# MediaWiki extension "Extension Installer"
+# Extension Installer
 
 This is a MediaWiki extension that allows installing other extensions via
 the [Composer](http://getcomposer.org/) dependency manager. You can specify
