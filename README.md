@@ -60,30 +60,39 @@ Or have a look at the examples below.
 
 The default contents of the json file specifies nothing should be installed, and includes the following section:
 
-	{
-		"require": {
-			"php": ">=5.3.2"
-		}
+```
+{
+	"require": {
+		"php": ">=5.3.2"
 	}
+	// ...
+}
+```
 
 Adding version 1.0 or later of the SubPageList extension requires adding a single line:
 
-	{
-		"require": {
-			"php": ">=5.3.2",
-			"mediawiki/sub-page-list": ">=1.0"
-		}
+```
+{
+	"require": {
+		"php": ">=5.3.2",
+		"mediawiki/sub-page-list": ">=1.0"
 	}
+	// ...
+}
+```
 
 The following example also adds the latest matching version of Semantic MediaWiki:
 
-	{
-		"require": {
-			"php": ">=5.3.2",
-			"mediawiki/sub-page-list": ">=1.0",
-			"mediawiki/semantic-media-wiki": "*"
-		}
+```
+{
+	"require": {
+		"php": ">=5.3.2",
+		"mediawiki/sub-page-list": ">=1.0",
+		"mediawiki/semantic-media-wiki": "*"
 	}
+	// ...
+}
+```
 
 Each line, except the last one, should have a comma at the end.
 
